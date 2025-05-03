@@ -16,7 +16,7 @@ public class BaseClass {
     public static EventFiringWebDriver edriver;
     public static WebEventListener EventDriver;
 
-    public BaseClass() {
+    public BaseClass() {//Bas class
         try {
             prop = new Properties();
             FileInputStream fis = new FileInputStream("C:\\Users\\hchalla2020\\NewWorkSpace2023\\NewWorkSpace20233\\PageObjectModel182025\\src\\main\\java\\config\\config.properties");
