@@ -15,7 +15,7 @@ public class BaseClass {
     public static Properties prop;
     public static EventFiringWebDriver edriver;
     public static WebEventListener EventDriver;
-    String url;
+    String url= "hello";
     public BaseClass() {//Bas class
 
         try {
